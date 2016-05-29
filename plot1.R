@@ -17,4 +17,4 @@ hist(dados$Global_active_power, col="red", main="Global Active Power", xlab="Glo
 # SAVE TO PNG FILE
 # save to a PNG file with a width of 480 pixes and height of 480 pixels
 dev.copy(png, file="plot1.png", width=480, height=480)
-
+dev.off()
